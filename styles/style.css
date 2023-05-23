@@ -58,13 +58,7 @@ body{
     font-family: var(--fonte-secundaria);
 }
 
-.apresentacao__links{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    gap: 32px;
-}
+
 .apresentacao__links__subtitulo{
     font-family: var(--fonte-primaria);
     font-weight: 400;
@@ -87,6 +81,7 @@ body{
 }
 .apresentacao__links__link:hover{
     background-color: var(--cor-hover);
+    
 }
 .rodape{
     color: var(--cor-primaria);
@@ -96,4 +91,7 @@ body{
     font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
     font-weight: 400;
+}
+img {
+    width: 300px;
 }
